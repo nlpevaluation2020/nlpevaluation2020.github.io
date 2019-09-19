@@ -53,7 +53,6 @@ td {vertical-align:top;}
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
     <a href="organization.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Organization</a>
-    <a href="cfp.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Call For Papers</a>
   </div>
 </div>
 
@@ -78,12 +77,9 @@ td {vertical-align:top;}
     Evaluation and Comparison of NLP Systems
   </h4>
 
-      <p>Email: <a href="mailto:neuralgen2019@gmail.com">evaluation.nlp.workshop2020@gmail.com</a> — Twitter: <a href="https://twitter.com/NeuralGen">@NeuralGen</a>
+      <p>Email: <a href="mailto:evaluation.nlp.workshop2020@gmail.com">evaluation.nlp.workshop2020@gmail.com</a> — Twitter: <a href="#">@NLPEvaluation</a>
     
     </td>  
-      <td width="20%">
-          <img src="images/NeuralGen_logo_final.png" width="100%">
-        </td>
       </tr>
     </table>
   </div>
@@ -93,16 +89,30 @@ td {vertical-align:top;}
       <p>Fair evaluations and comparisons are of fundamental importance to the NLP community to properly track progress, especially within the current deep learning revolution, with new state-of-the-art results reported in ever shorter intervals. This concerns the designing of adequate metrics for evaluating performance in high-level generation tasks such as question answering, dialogue, summarization, machine translation, image captioning, poetry generation, etc.; properly evaluating word and sentence embeddings; and rigorously determining whether and under which conditions one system is better than another; etc. </p>
       <p>Particular topics of interest of the workshop include (but not limited to):</p>
       <ul>
-      <li><b>Analyzing and designing individual evaluation metrics</b> 
+      <li><b>Analyzing and designing individual evaluation metrics</b> Analyzing & designing: 
           <ul>
-            <li>ss</li>
-            <li>ss</li>
+            <li>(standard) metrics that have desirable properties such as high correlations with human judgments; strong in distinguishing high-quality outputs from mediocre and low-quality outputs; robust across lengths of input and output sequences; etc.</li>
+            <li>reference-free evaluation metrics, defined in terms of source text(s) and system predictions only; cross-domain metrics that can reliably and robustly measure the quality of system outputs from heterogeneous modalities (e.g. image and speech), different genres (e.g. newspapers, Wikipedia articles and scientific papers) and different languages; etc.</li>
           </ul>
       </li>
-      <li><b>Evaluation:</b> new automatic metrics for evaluating different characteristics of coherent language, evaluation using pretrained models, proposing better human evaluation strategies.</li>
-      <li><b>Generalization:</b> transfer learning (unsupervised pre-training for generation, low-resource generation, domain adaptation), multi-task learning, model distillation.</li>
-      <li><b>Analysis:</b> model analysis, interpretability and/or visualizations, error analysis of machine-generated language, analysis of evaluation metrics, benefits/drawbacks of different loss functions.
-        </li></ul>
+      <li><b>Designing adequate evaluation methodology</b> Ensuring & reporting:  
+          <ul>
+            <li>statistics for trustworthiness of results e.g., via appropriate significance tests, and reporting of score distributions rather than single-point estimates, to avoid chance findings</li>
+            <li>reproducibility of experiments with reasonable effort </li>
+            <li>comprehensive comparisons for NLP systems and text representations (e.g., using similar and distant language pairs, high- and low-resource scenarios, multiple tasks, etc.)</li>
+            <li>fair comparisons of systems and of text representations, e.g., comparing text representations of the same dimensionality, with same or similar training corpora, etc.</li>
+            <li>comprehensive and unbiased error analyses and case studies, avoiding cherry-picking and sampling bias</li>
+          </ul>
+      </li>
+      <li><b>Creating adequate and correct evaluation data</b> Ensuring & reporting: 
+          <ul>
+            <li>coverage of phenomena, representativeness/balance/distribution with respect to the task, etc.</li>
+            <li>size of corpora, variability among data sources, eras, genres, etc.</li>
+            <li>internal consistency of annotations, annotation metrics, e.g., agreement levels </li>
+            <li>introspection and elimination of biases in the annotated data </li>
+          </ul>
+      </li>
+      </ul>
     </div>
     </div>
     <!--div class="w3-third w3-container">
@@ -122,185 +132,36 @@ td {vertical-align:top;}
       </ul-->
 
       <h4>Speakers</h4>
-     <table >
-
+     <table>
         <tr ><td ></td>
-            <td class="name" ><a href="https://homes.cs.washington.edu/~yejin/"> Yejin Choi</a></td>
-        <td class="institution"> University of Washington, Allen Institute for AI</td>
+            <td class="name" ><a href="http://u.cs.biu.ac.il/~dagan/"> Ido Dagan</a></td>
+        <td class="institution"> Bar-Ilan University, Israel</td>
         </tr>
 
         <tr  id="ychoibio" >
-          <td colspan="4" class="bio" style="padding-bottom:20px">Bio: Yejin Choi is an associate professor at the Paul G. Allen School of Computer Science & Engineering at the University of Washington and also a senior research manager at AI2  overseeing the project Mosaic. Her research interests include language grounding with vision, physical and social commonsense knowledge, language generation with long-term coherence, conversational AI, and AI for social good. She was a recepient of Borg Early Career Award (BECA) in 2018, among the IEEE’s AI Top 10 to Watch in 2015, a co-recipient of the Marr Prize at ICCV 2013, and a faculty advisor for the Sounding Board team that won the inaugural Alexa Prize Challenge in 2017.  Her work on detecting deceptive reviews, predicting the literary success, and interpreting bias and connotation has been featured by numerous media outlets including NBC News for New York, NPR Radio, New York Times, and Bloomberg Business Week. She received her Ph.D. in Computer Science from Cornell University.
-</td>
+          <td colspan="4" class="bio" style="padding-bottom:20px">Bio: </td>
         </tr>
 
         <tr >
          <td ></td>
-        <td class="name"><a href="http://users.umiacs.umd.edu/~hal/">Hal Daum&eacute;  III</a></td>
-        <td class="institution"> University of Maryland, Microsoft Research</td>
-        </tr>
+        <td class="name"><a href="https://sites.cs.ucsb.edu/~william/">William Wang</a></td>
+        <td class="institution"> University of California, Santa Barbara, USA</td>
+        </tr> 
 
         <tr  id="hdaumebio" >
-          <td colspan="4" class="bio" style="padding-bottom:20px">Bio: Hal Daumé III is a professor in Computer Science at the University of Maryland, College Park and Principal Researcher at Microsoft Research, New York City. His primary research interest is in developing new learning algorithms for prototypical problems that arise in the context of natural language processing, with a focus on interactive systems and fairness. He has received several "best of" awards, including at ACL 2018, NAACL 2016, NeurIPS 2015, CEAS 2011 and ECML 2009. He has been program chair for NAACL 2013 (and chair of its executive board), will be program chair for ICML 2020, and was an inaugural diversity and inclusion co-chair at NeurIPS 2018.</tr>
+          <td colspan="4" class="bio" style="padding-bottom:20px">Bio: </tr>
 
         <tr >
           <td ></td>
-        <td class="name"><a href="https://thashim.github.io/">Tatsunori Hashimoto</a></td>
-        <td class="institution"> Stanford University</td>
+        <td class="name"><a href="https://gogoglavas.wixsite.com/goran">Goran Glavas</a></td>
+        <td class="institution"> University of Mannheim, Germany</td>
         </tr>
 
         <tr  id="thashimotobio" >
-          <td colspan="4" class="bio" style="padding-bottom:20px">Bio: Tatsunori (Tatsu) Hashimoto is currently finishing up a 3 year post-doc in the Statistics and Computer Science departments at Stanford, supervised by Professors Percy Liang and John Duchi. Starting in 2020, he will be joining the Computer Science department at Stanford as an assistant professor. Tatsu holds a Ph.D from MIT where he studied connections between embeddings and random walks under Professors Tommi Jaakkola and David Gifford, and a B.S. from Harvard in Statistics and Math. His work has been recognized in NeurIPS 2018 (Oral), ICML 2018 (Best paper runner-up), and NeurIPS 2014 Workshop on Networks (Best student paper).</td>
-        </tr>
-
-        <tr>
-          <td ></td>
-        <td class="name"><a href="https://hhexiy.github.io/">He He</a></td>
-        <td class="institution"> New York University, Amazon Web Services</td>
-        </tr>
-
-        <tr  id="hhebio">
-          <td colspan="4" class="bio" style="padding-bottom:20px" >Bio: He He is a senior applied scientist at Amazon Web Services, Palo Alto. Starting Fall 2019, she will be joining New York University as an assistant professor. She received her PhD from University of Maryland, College Park, followed by a post-doc at Stanford. She is broadly interested in machine learning and natural language processing.  Her research focuses on building intelligent agents that process language a changing environment and interact with people, recently focusing on controllable text generation and dialogue systems.</td>
-        </tr>
-
-        <tr >
-          <td ></td>
-        <td class="name"><a href="http://www.phontron.com/">Graham Neubig</a></td>
-        <td class="institution"> Carnegie Mellon University</td>
-        </tr>
-
-        <tr  id="gneubigbio">
-          <td colspan="4" class="bio" style="padding-bottom:20px">Bio: Graham Neubig is an assistant professor at the Language Technologies Institute of Carnegie Mellon University. His work focuses on natural language processing, specifically multi-lingual models that work in many different languages, and natural language interfaces that allow humans to communicate with computers in their own language. Much of this work relies on machine learning to create these systems from data, and he is also active in developing methods and algorithms for machine learning over natural language data. He publishes regularly in the top venues in natural language processing, machine learning, and speech, and his work occasionally wins awards such as best papers at EMNLP, EACL, and WNMT. He is also active in developing open-source software, and is the main developer of the DyNet neural network toolkit.</td>
-        </tr>
-
-        <tr >
-          <td ></td>
-          <td class="name"><a href="https://nlp.seas.harvard.edu/rush.html">Alexander Rush</a></td>
-        <td class="institution"> Harvard University, Cornell Tech</td>
-        </tr>
-
-        <tr  id="arushbio" >
-          <td colspan="4" class="bio" style="padding-bottom:20px" >Bio: Alexander "Sasha" Rush is an Associate Professor at Harvard University, where he studies natural language processing and machine learning. Sasha received his PhD from MIT supervised by Michael Collins and was a postdoc at Facebook NY under Yann LeCun. His group supports open-source development, running several projects including OpenNMT. His research has received several best paper awards at NLP conferences, an NSF Career award, and faculty awards from Google, Facebook, and others.  He is currently the senior program chair of ICLR 2019.</td>
+          <td colspan="4" class="bio" style="padding-bottom:20px">Bio:</td>
         </tr>
       </table>
 
-   
-
-      <h4>Schedule</h4>
-      <table>
-        <tr><td width="100px" style="text-align:right"><u>Thurs June 6</u></td><td style="padding-left:10px"></td></tr>
-        <tr><td width="100px" style="text-align:right">9:00-9:05</td><td style="padding-left:10px">Opening Remarks</td></tr>
-        <tr><td style="text-align:right"> 9:05-9:45</td><td style="padding-left:10px">Invited Speaker: <span class="schedulename">Graham Neubig</span> -- <a href="http://www.phontron.com/slides/neubig19neuralgen.pdf">What can Statistical Machine Translation teach Neural Text Generation about Optimization?</a></td></tr>
-        <tr><td style="text-align:right"> 9:45-10:25</td><td style="padding-left:10px">Invited Speaker: <span class="schedulename">He He</span> -- <a href="pdf/hhe.pdf">Towards Controllable Text Generation</a></td></tr>
-        <tr><td style="text-align:right"> 10:25-10:45</td><td style="padding-left:10px">Coffee Break</td></tr>
-        <tr><td style="text-align:right"> 10:45-11:25</td><td style="padding-left:10px">Invited Speaker: <span class="schedulename">Tatsunori Hashimoto</span> -- <a href="https://drive.google.com/file/d/1P--z-jGWMtrSHdjB64X4BEwuIedzkO6N/view?usp=drive_web">Defining and evaluating diversity in generation</a></td></tr>
-        <tr><td style="text-align:right"> 11:25-12:05</td><td style="padding-left:10px">Invited Speaker: <span class="schedulename">Yejin Choi</span> -- <a href="https://www.dropbox.com/s/bnz1f9vwxs0u2n0/neuraldegen.pdf?dl=0">The Enigma of Neural Text <b><i>De</i></b>generation as the First Defense Against Neural Fake News.</a></td></tr>
-        <tr><td style="text-align:right"> 12:05-13:35</td><td style="padding-left:10px">Lunch</td></tr>
-        <tr><td style="text-align:right"> 13:35-14:15</td><td style="padding-left:10px">Invited Speaker: <span class="schedulename">Alexander Rush</span> -- <a href="http://nlp.seas.harvard.edu/slides/Pre-training%20for%20Generation.pdf">Pretraining Methods for Neural Generation</a></td></tr>
-        <tr><td style="text-align:right"> 14:15-14:25</td><td style="padding-left:10px">Best Paper Presentation: <span class="papertitle">Bilingual-GAN: A Step Towards Parallel Text Generation</span></td></tr>
-        <tr><td style="text-align:right"> 14:25-14:35</td><td style="padding-left:10px">Best Paper Presentation: <span class="papertitle">Designing a Symbolic Intermediate Representation for Neural Surface Realization</span> </td></tr>
-        <tr><td style="text-align:right"> 14:35-14:45</td><td style="padding-left:10px">Remote Presentation: <span class="papertitle">Jointly Measuring Diversity and Quality in Text Generation Models</span></td></tr>
-        <tr><td style="text-align:right"> 14:45-16:15</td><td style="padding-left:10px">Poster Session  & Coffee Break</td></tr>
-        <tr><td style="text-align:right"> 16:15-16:55</td><td style="padding-left:10px">Invited Speaker:  <span class="schedulename">Hal Daumé III</span> -- <a href="pdf/out_of_order.pptx"> Out of Order! Flexible neural language generation</a></td></tr>
-        <tr><td style="text-align:right"> 16:55-17:55</td><td style="padding-left:10px">Panel</td></tr>
-        <tr><td style="text-align:right"> 17:55-18:00</td><td style="padding-left:10px">Closing Remarks</td></tr>
-      </table>
-
-      <h4>Accepted Papers</h4>
-    <ul>
-      <li>
- <span class="papertitle">An Adversarial Learning Framework For A Persona-Based Multi-Turn Dialogue Model</span><br>
-Oluwatobi Olabiyi, Anish Khazane, Alan Salimov and Erik Mueller
-      </li><li>
- <span class="papertitle">DAL: Dual Adversarial Learning for Dialogue Generation</span><br>
-Shaobo Cui, Rongzhong Lian, Di Jiang, Yuanfeng Song, Siqi Bao and Yong Jiang
-      </li><li>
- <span class="papertitle">How to Compare Summarizers without Target Length? Pitfalls, Solutions and Re-Examination of the Neural Summarization Literature</span><br>
-Simeng Sun, Ori Shapira, Ido Dagan and Ani Nenkova
-      </li><li>
- <span class="papertitle">BERT has a Mouth, and It Must Speak: BERT as a Markov Random Field Language Model</span><br>
-Alex Wang and Kyunghyun Cho
-      </li><li>
- <span class="papertitle">Neural Text Simplification in Low-Resource Conditions Using Weak Supervision</span><br>
-Alessio Palmero Aprosio, Sara Tonelli, Marco Turchi, Matteo Negri and Mattia A. Di Gangi
-      </li><li>
- <span class="papertitle">Paraphrase Generation for Semi-Supervised Learning in NLU</span><br>
-Eunah Cho, He Xie and William M. Campbell
-      </li><li>
- <span class="papertitle">Bilingual-GAN: A Step Towards Parallel Text Generation</span><br>
-Ahmad Rashid, Alan Do Omri, Md Akmal Haidar, Qun Liu and Mehdi Rezagholizadeh 
-      </li><li>
- <span class="papertitle">Designing a Symbolic Intermediate Representation for Neural Surface Realization</span><br>
-Henry Elder, Jennifer Foster, James Barry and Alexander O’Connor
-      </li><li>
- <span class="papertitle">Neural Text Style Transfer via Denoising and Reranking</span><br>
-Joseph Lee, Ziang Xie, Cindy Wang, Max Drach, Dan Jurafsky and Andrew Ng
-      </li><li>
- <span class="papertitle">Better Automatic Evaluation of Open-Domain Dialogue Systems with Contextualized Embeddings</span><br>
-Sarik Ghazarian, Johnny Wei, Aram Galstyan and Nanyun Peng
-      </li><li>
- <span class="papertitle">Jointly Measuring Diversity and Quality in Text Generation Models</span><br>
-Ehsan Montahaei, Danial Alihosseini and Mahdieh Soleymani Baghshah
-      </li>
-    </ul>
-
-      <h4>Posters</h4>
-
-<ul>
-  <li>
-<span class="papertitle">An Adversarial Learning Framework For A Persona-Based Multi-Turn Dialogue Model</span><br>
-Oluwatobi Olabiyi, Anish Khazane, Alan Salimov and Erik Mueller
- </li><li>
-<span class="papertitle">DAL: Dual Adversarial Learning for Dialogue Generation</span><br>
-Shaobo Cui, Rongzhong Lian, Di Jiang, Yuanfeng Song, Siqi Bao and Yong Jiang
- </li><li>
-<span class="papertitle">Towards Coherent and Engaging Spoken Dialog Response Generation Using Automatic Conversation Evaluators</span><br>
-Sanghyun Yi, Rahul Goel, Chandra Khatri, Tagyoung Chung, Behnam Hedayatnia, Anu Venkatesh, Raefer Gabriel and Dilek Hakkani-Tur
- </li><li>
-<span class="papertitle">How to Compare Summarizers without Target Length? Pitfalls, Solutions and ReExamination of the Neural Summarization Literature</span><br>
-Simeng Sun, Ori Shapira, Ido Dagan and Ani Nenkova
- </li><li>
-<span class="papertitle">BERT has a Mouth, and It Must Speak: BERT as a Markov Random Field Language Model </span><br>
-Alex Wang and Kyunghyun Cho
- </li><li>
-<span class="papertitle">Neural Text Simplification in Low-Resource Conditions Using Weak Supervision</span><br>
-Alessio Palmero Aprosio, Sara Tonelli, Marco Turchi, Matteo Negri and Mattia A. Di Gangi
- </li><li>
-<span class="papertitle">Paraphrase Generation for Semi-Supervised Learning in NLU</span><br>
-Eunah Cho, He Xie and William M. Campbell
- </li><li>
-<span class="papertitle">Bilingual-GAN: A Step Towards Parallel Text Generation</span><br>
-Ahmad Rashid, Alan Do Omri, Md Akmal Haidar, Qun Liu and Mehdi Rezagholizadeh
- </li><li>
-<span class="papertitle">Learning Criteria and Evaluation Metrics for Textual Transfer between Non-Parallel Corpora</span><br>
-Yuanzhe Pang and Kevin Gimpel
- </li><li>
-<span class="papertitle">Dual Supervised Learning for Natural Language Understanding and Generation</span><br>
-Shang-Yu Su, Chao-Wei Huang and Yun-Nung Chen
- </li><li>
-<span class="papertitle">Designing a Symbolic Intermediate Representation for Neural Surface Realization</span><br>
-Henry Elder, Jennifer Foster, James Barry and Alexander O’Connor
- </li><li>
-<span class="papertitle">Insertion-based Decoding with automatically Inferred Generation Order</span><br>
-Jiatao Gu, Qi Liu and Kyunghyun Cho
- </li><li>
-<span class="papertitle">Neural Text Style Transfer via Denoising and Reranking</span><br>
-Joseph Lee, Ziang Xie, Cindy Wang, Max Drach, Dan Jurafsky and Andrew Ng
- </li><li>
-<span class="papertitle">Generating Diverse Story Continuations with Controllable Semantics</span><br>
-Lifu Tu, Xiaoan Ding, Dong Yu and Kevin Gimpel
- </li><li>
-<span class="papertitle">Better Automatic Evaluation of Open-Domain Dialogue Systems with Contextualized Embeddings</span><br>
-Sarik Ghazarian, Johnny Wei, Aram Galstyan and Nanyun Peng
- </li><li>
-<span class="papertitle">Improved Zero-shot Neural Machine Translation via Ignoring Spurious Correlations</span><br>
-Jiatao Gu, Yong Wang, Kyunghyun Cho and Victor O.K. Li
- </li><li>
-<span class="papertitle">Jointly Measuring Diversity and Quality in Text Generation Models</span><br>
-Ehsan Montahaei, Danial Alihosseini and Mahdieh Soleymani Baghshah
- </li>
-
-</ul>
 
 
     </div>
@@ -318,40 +179,37 @@ Ehsan Montahaei, Danial Alihosseini and Mahdieh Soleymani Baghshah
       <h4>Steering Committee</h4>
       <table>
         <tr>
-        <td width="180px" class="name"><a href="https://homes.cs.washington.edu/~yejin/"> Yejin Choi </a></td><td class="institution"> University of Washington </td>
+        <td width="180px" class="name"><a href="http://u.cs.biu.ac.il/~dagan/"> Ido Dagan </a></td><td class="institution"> Bar-Ilan University, Israel </td>
+        </tr>
+
+        <tr>
+        <td class="name"><a href="http://www.cis.upenn.edu/~nenkova/">Ani Nenkova</a></td><td class="institution"> University of Pennsylvania, USA</td>
         </tr>
         <tr>
-        <td class="name"><a href="https://scholar.google.com/citations?user=GMcL_9kAAAAJ">Dilek Hakkani-Tür</a></td><td class="institution"> Amazon Research</td>
+
+        <td class="name"><a href="https://dlab.epfl.ch/people/west/">Robert West</a></td><td class="institution">École polytechnique fédérale de Lausanne (EPFL), Switzerland</td>
         </tr>
         <tr>
-        <td class="name"><a href="https://web.stanford.edu/~jurafsky/">Dan Jurafsky</a></td><td class="institution">Stanford University</td>
-        </tr>
-        <tr>
-        <td class="name"><a href="https://nlp.seas.harvard.edu/rush.html">Alexander Rush</a></td><td class="institution"> Harvard University</td>
+        <td class="name"><a href="http://www.cs.unc.edu/~mbansal/">Mohit Bansal</a></td><td class="institution"> University of North Carolina (UNC) Chapel Hill, USA</td>
         </tr>
       </table>
       <h4>Organizing Committee</h4>
       <table>
+
         <tr>
-        <td width="180px" class="name"><a href="https://atcbosselut.github.io/">Antoine Bosselut</a></td><td class="institution"> University of Washington</td>
+        <td width="180px" class="name"><a href="#">Eduard Hovy</a></td><td class="institution"> Carnegie Mellon University, USA</td>
         </tr>
         <tr>
-        <td class="name"><a href="https://scholar.google.com/citations?user=IRTtnAIAAAAJ&hl=en">Marjan Ghazvininejad</a></td><td class="institution">Facebook AI Research</td>
+        <td class="name"><a href="#">Steffen Eger</a></td><td class="institution">Technische Universität Darmstadt, Germany</td>
         </tr>
         <tr>
-        <td class="name"><a href="http://sriniiyer.github.io/">Srinivasan Iyer</a></td><td class="institution">University of Washington</td>
+        <td class="name"><a href="#">Yang Gao</a></td><td class="institution">Royal Holloway, University of London, UK</td>
         </tr>
         <tr>
-        <td class="name"><a href="https://nlp.stanford.edu/~urvashik/">Urvashi Khandelwal</a></td><td class="institution"> Stanford University</td>
+        <td class="name"><a href="#">Maxime Peyrard</a></td><td class="institution">École polytechnique fédérale de Lausanne (EPFL), Switzerland</td>
         </tr>
         <tr>
-        <td class="name"><a href="https://homes.cs.washington.edu/~hrashkin/">Hannah Rashkin</a></td><td class="institution">University of Washington</td>
-        </tr>
-        <tr>
-        <td class="name"><a href="https://www.microsoft.com/en-us/research/people/aslicel/"> Asli Celikyilmaz</a></td><td class="institution">Microsoft Research</td>
-        </tr>
-        <tr>
-        <td class="name"><a href="http://thomwolf.io/">Thomas Wolf</a></td><td class="institution">HuggingFace</td>
+        <td class="name"><a href="#">Wei Zhao</a></td><td class="institution">Technische Universität Darmstadt, Germany</td>
         </tr>
       </table>
 
@@ -370,12 +228,6 @@ Ehsan Montahaei, Danial Alihosseini and Mahdieh Soleymani Baghshah
       <img src="images/huggingface.png" width="80px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="images/facebook-logo.png" width="100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <br-->
-
-      <img src="images/Microsoft-logo_rgb_gray.png" height="150px">&nbsp;&nbsp;
-      <img style="margin-top:15px" src="images/GoogleLogo_Color.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="images/huggingface.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="images/facebook-logo.png" height="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
     </div>
   </div>
 
