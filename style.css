@@ -1,0 +1,44 @@
+
+.name {
+   font-weight: bold;
+   font-size: 15px;
+}
+.institution{
+   font-weight:lighter;
+   %color:#557777;
+}
+
+table{
+   margin-left:20px;
+   margin-right:20px;
+}
+
+
+
+body{
+   background-color:#dddddd;
+}
+
+.w3-main{
+   margin-left:50px;
+   margin-right: 50px;
+   padding-left:100px;
+   padding-right:100px;
+   background-color:white;
+}
+
+#timer{
+   color:#4682b4;
+}
+
+ul{
+   margin:0px;
+}
+
+td,tr{
+   height:20px;
+}
+
+a{
+   color:blue;
+}
