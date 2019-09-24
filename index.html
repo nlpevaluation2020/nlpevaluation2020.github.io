@@ -92,13 +92,14 @@ td {vertical-align:top;}
       <li><b>Analyzing and designing individual evaluation metrics</b> Analyzing & designing: 
           <ul>
             <li>(standard) metrics that have desirable properties such as high correlations with human judgments; strong in distinguishing high-quality outputs from mediocre and low-quality outputs; robust across lengths of input and output sequences; etc.</li>
-            <li>reference-free evaluation metrics, defined in terms of source text(s) and system predictions only; cross-domain metrics that can reliably and robustly measure the quality of system outputs from heterogeneous modalities (e.g. image and speech), different genres (e.g. newspapers, Wikipedia articles and scientific papers) and different languages; etc.</li>
+            <li>reference-free evaluation metrics, defined in terms of source text(s) and system predictions only; cross-domain metrics that can reliably and robustly measure the quality of system outputs from heterogeneous modalities (e.g.,  image and speech), different genres (e.g., newspapers, Wikipedia articles and scientific papers) and different languages; etc.</li>
+            <li>cost-effective manual evaluations with good inter-annotator agreement (e.g., crowdsourcing)</li>
           </ul>
       </li>
       <li><b>Designing adequate evaluation methodology</b> Ensuring & reporting:  
           <ul>
             <li>statistics for trustworthiness of results e.g., via appropriate significance tests, and reporting of score distributions rather than single-point estimates, to avoid chance findings</li>
-            <li>reproducibility of experiments with reasonable effort </li>
+            <li>reproducibility of experiments, e.g., quantifying the reproducibility of papers and issuing reproducibility guidelines</li>
             <li>comprehensive comparisons for NLP systems and text representations (e.g., using similar and distant language pairs, high- and low-resource scenarios, multiple tasks, etc.)</li>
             <li>fair comparisons of systems and of text representations, e.g., comparing text representations of the same dimensionality, with same or similar training corpora, etc.</li>
             <li>comprehensive and unbiased error analyses and case studies, avoiding cherry-picking and sampling bias</li>
@@ -108,8 +109,9 @@ td {vertical-align:top;}
           <ul>
             <li>coverage of phenomena, representativeness/balance/distribution with respect to the task, etc.</li>
             <li>size of corpora, variability among data sources, eras, genres, etc.</li>
-            <li>internal consistency of annotations, annotation metrics, e.g., agreement levels </li>
-            <li>introspection and elimination of biases in the annotated data </li>
+            <li>internal consistency of annotations</li>
+            <li>agreement levels for annotation metrics</li>
+            <li>introspection and elimination of biases in the annotated data, e.g., via adversarial attacks</li>
           </ul>
       </li>
       </ul>
