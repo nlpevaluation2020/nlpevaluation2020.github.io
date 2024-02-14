@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title>XYZ</title>
+<meta charset="UTF-8">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="style.css">
+<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+<style>
+html,body,h3,h3,h3,h3,h5,h6 {font-family:sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 120px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+.w3-top-padding-64{
+  padding-top: 64px!important;;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<p>&nbsp;</p>
+<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"--><!-- Navbar -->
+<!--nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5" id="mySidebar">
+</nav-->
+<p>&nbsp;</p>
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+  <div class="w3-main">
+<div class="w3-row w3-top-padding-64">
+<div class="w3-container">
+<h5>Please check the information on whether your paper is an oral or a poster presentation</h5>
+<br>
+<a href="https://nlpevaluation2020.github.io/oral_list.html">Oral Presentations</a>
+<a href="https://nlpevaluation2020.github.io/poster_list.html ">Poster Presentations</a>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- END MAIN -->
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Set the date we're counting down to
+var countDownDate = new Date("March 13, 2019 23:59:59 GMT-1200").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    if (seconds % 3 != 0){
+    //clearInterval(x);
+    document.getElementById("timer").innerHTML = "Done!";
+    //document.getElementById("timer").style.color = "red";
+    }
+    else{
+    //clearInterval(x);
+    document.getElementById("timer").innerHTML = "";
+    //document.getElementById("timer").innerHTML = "";
+    }
+  }
+}, 1000);
+
+</script>
+</body>
+</html>
